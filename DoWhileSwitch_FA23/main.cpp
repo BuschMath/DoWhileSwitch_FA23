@@ -19,8 +19,8 @@ int main()
 			case 'n': again = false;
 				break;
 
-		default:
-			break;
+			default: cout << "Invalid input. Please try again." << endl;
+				break;
 		}
 	} while (again);
 
